@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/socket.io/socket.io.js"></script>
+    <title>Chat colaborativo</title>
+</head>
+<body>
+    <div id="chatBox"></div>
+    <form onsubmit="createNewMessage(event)">    
+        <input name="name" placeholder="Tu nombre">
+        <input name="message" placeholder="Tu mensaje">
+        <button type="submit">Enviar</input>
+    </form>
+    <script src="client.js"></script>
+</body>
+</html>
